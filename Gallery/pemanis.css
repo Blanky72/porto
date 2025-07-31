@@ -1,0 +1,75 @@
+/* Reset some default browser styling */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic layout */
+body {
+    font-family: "Outfit",sans-serif;
+    line-height: 1;
+    color: #ffffff;
+    background-color: #191931;
+}
+
+header {
+    background: #31363F;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.back {
+    position: absolute;
+    left: 10px; /* Align to the left */
+    transform: translateY(-40%); /* Adjust vertical centering */
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: medium;
+    margin: 0;
+}
+
+main {
+    padding: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+figure {
+    margin: 15px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 1rem;
+    display: flex;
+        flex-direction: column;   
+    align-items: center;
+    color: rgb(128, 128, 128);
+    gap: 0.5rem;
+    font-size: 10px;
+}
+
